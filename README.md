@@ -1,136 +1,113 @@
-# Gemini Clone 🔮✨
+# 🔮 Gemini Clone
 
-A sleek, AI-powered Gemini Chat clone built using **Next.js 14** with **Tailwind CSS**, simulating a chat interface with Gemini-like features. This project showcases responsive design, fixed topbar, real-time input handling, and state management using React Context.
+A sleek, AI-powered Gemini Chat Clone built using **Next.js 14**, **Tailwind CSS**, and **React Context API**. This project simulates a Gemini-style chat interface with a modern UI, fixed topbar, and real-time input handling.
 
 ---
 
 ## 🌐 Live Preview
 
-> 🚀 Coming Soon...  
-> We'll deploy it using [Vercel](https://vercel.com)
+🚀 Coming Soon...  
+> Deployment planned via [Vercel](https://vercel.com)
 
 ---
 
 ## 📸 Demo
 
-### Interface Preview:
+### 🖼️ Interface Screenshots
 
-![Gemini Chat Area](/media/CHatareaa.png)
-![Gemini Home Page](/media/GeminiHome.png)
+<img src="/media/CHatareaa.png" width="500" alt="Chat Area Screenshot" />
+<img src="/media/GeminiHome.png" width="500" alt="Home Page Screenshot" />
 
-> 🎥 For demo video:  
-> Place your `.mp4` video inside `/public/media`, but HTML `<img>` cannot show videos. To embed a video, use HTML5 video tag (see below):
+### 🎥 Demo Video
 
-```html
-<video width="500" controls>
-  <source src="/media/chatVedio.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-🚀 Features
-🧠 Gemini-style chat simulation
-
-💬 Real-time input and chat display
-
-🎨 Modern, responsive UI with Tailwind CSS
-
-🌙 Light/Dark theme toggle
-
-🔐 Secure API key usage via .env.local
-
-💡 Global state management using React Context API
-
-🛠️ Tech Stack
-Next.js 14
-
-React
-
-Tailwind CSS
-
-Lucide Icons
-
-Context API
-
-📁 Project Structure
-pgsql
-Copy
-Edit
-Gemini-Clone/
-├── public/
-│   └── media/
-│       ├── CHatareaa.png
-│       ├── GeminiHome.png
-│       └── chatVedio.mp4
-├── app/
-│   ├── layout.jsx
-│   └── page.jsx
-├── components/
-│   ├── Sidebar.jsx
-│   ├── Topbar.jsx
-│   └── GeminiBody.jsx
-├── context/
-│   └── ContextProvider.jsx
-├── lib/
-│   └── gemini.js
-├── styles/
-│   └── globals.css
-├── .env.local
-├── README.md
-└── package.json
-📦 Installation & Setup
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/Gemini-Clone.git
-cd Gemini-Clone
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Create .env.local file:
-
-env
-Copy
-Edit
-GOOGLE_API_KEY=your_gemini_api_key
-Run the development server:
-
-bash
-Copy
-Edit
-npm run dev
-Visit http://localhost:3000 🚀
-
-⚠️ Notes
-Ensure all media files (CHatareaa.png, GeminiHome.png, chatVedio.mp4) are inside the public/media folder.
-
-When using images or video from /public, always start path with / (i.e., /media/filename.ext)
-
-Video tags must use <video> not <img>.
-
-📬 Contact
-Made with ❤️ by Parul Gupta
-GitHub: @parulgupta
-LinkedIn: Parul Gupta
-
-📜 License
-This project is licensed under the MIT License - feel free to use and modify!
-
-yaml
-Copy
-Edit
+<video src="/media/chatVedio.mp4" width="500" controls>Your browser does not support video playback.</video>
 
 ---
 
+## ✨ Features
+
+- 🧠 Gemini-style chat simulation
+- 💬 Real-time user input & dynamic chat updates
+- 🎨 Beautiful responsive UI using Tailwind CSS
+- 🌗 Dark/Light mode toggle
+- 🔐 Environment-based secure API integration
+- ♻️ Global state handling with React Context
+
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- React Context API
+
+---
+
+## 📁 Project Structure
+
+gemini_clone/
+│
+├── public/
+│ └── media/ # Contains images and videos for UI
+│
+├── src/
+│ ├── components/ # Reusable components like Sidebar, Topbar
+│ ├── context/ # React Context for state management
+│ ├── app/ # Next.js 14 App Router structure
+│ └── lib/ # API integration logic (e.g., runChat.js)
+│
+├── .env.local # Your secret API key (Not pushed to Git)
+├── .gitignore # Ignores .env.local, node_modules, etc.
+├── package.json
+└── tailwind.config.js
 
 
+---
 
+## 🔐 Environment & API
 
+To keep your API key safe:
 
+- Store it in `.env.local`
+- Access using `process.env.YOUR_API_KEY`
+- Make sure `.env.local` is listed in `.gitignore`
 
+**✅ Verified Safe:**  
+If `git ls-files | grep .env.local` returns nothing, the file was not pushed. You're safe.
 
+---
 
+## 🚀 Getting Started
+
+ **1. Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/gemini_clone.git
+   cd gemini_clone
+   
+**2. Install dependencies:**
+npm install
+ 
+**3.Set your API key:**
+Create .env.local:
+GEMINI_API_KEY=your_api_key_here
+
+**4.Run the dev server:**
+npm run dev
+
+**🧪 To-Do / Improvements**
+✅ Theme toggle
+
+**⏳ Video integration**
+
+⏳ Deploy to Vercel
+
+⏳ Add loading spinner
+
+**📬 Feedback**
+Found a bug or want to contribute? Feel free to open an issue or pull request!
+
+**🧑‍💻 Author**
+Made with ❤️ by Your Parul Gupta
 
