@@ -1,40 +1,44 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gemini Clone 🔮✨
 
-## Getting Started
+A sleek, AI-powered Gemini Chat clone built using **Next.js 14** with **Tailwind CSS**, simulating a chat interface with Gemini-like features. This project showcases responsive design, fixed topbar, real-time input handling, and state management using React Context.
 
-First, run the development server:
+## 🌐 Live Preview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> Coming Soon... (You can deploy it using [Vercel](https://vercel.com))
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📸 Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Interface Preview:
 
-## Learn More
+<img src="/media/gemini.png" width="500" alt="Gemini Clone UI Screenshot" />
+<img src="/media/gemin.webp" width="500" alt="Gemini Clone Web Preview" />
 
-To learn more about Next.js, take a look at the following resources:
+> 📽️ You can also include a small screen-recording or video here if needed!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Features
 
-## Deploy on Vercel
+- 🧠 Chat simulation with Gemini-like layout
+- 💬 Real-time input and chat display
+- 🎨 Modern UI using Tailwind CSS
+- 🌙 Light/Dark Theme Toggle
+- 🔐 Secure API key usage with `.env.local`
+- 💡 React Context for global state management
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Gemini-Clone
->>>>>>> 2cf1f599d0b7d91db9349723cbcb23d115d28f42
+## 🛠️ Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- Context API
+
+---
+
+## 📁 Project Structure
+
