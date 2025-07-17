@@ -15,7 +15,7 @@ A sleek, AI-powered Gemini Chat clone built using **Next.js 14** with **Tailwind
 
 ### Interface Preview:
 
-<img src="media/gemini.png" width="500" alt="Gemini Clone UI Screenshot" />
+<img src="media/CHatareaa.png" width="500" alt="Gemini Clone UI Screenshot" />
 <img src="media/gemini.webp" width="500" alt="Gemini Clone Web Preview" />
 
 > 🎥 You can also include a screen recording or demo video here if needed.
