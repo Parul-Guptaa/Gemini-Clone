@@ -15,33 +15,122 @@ A sleek, AI-powered Gemini Chat clone built using **Next.js 14** with **Tailwind
 
 ### Interface Preview:
 
-<img src="media/CHatareaa.png" width="500" alt="Gemini Clone UI Screenshot" />
-<img src="media/GeminiHome.png" width="500" alt="Gemini Clone Web Preview" />
+![Gemini Chat Area](/media/CHatareaa.png)
+![Gemini Home Page](/media/GeminiHome.png)
 
-> 🎥 You can also include a screen recording or demo video here if needed.
+> 🎥 For demo video:  
+> Place your `.mp4` video inside `/public/media`, but HTML `<img>` cannot show videos. To embed a video, use HTML5 video tag (see below):
+
+```html
+<video width="500" controls>
+  <source src="/media/chatVedio.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+🚀 Features
+🧠 Gemini-style chat simulation
+
+💬 Real-time input and chat display
+
+🎨 Modern, responsive UI with Tailwind CSS
+
+🌙 Light/Dark theme toggle
+
+🔐 Secure API key usage via .env.local
+
+💡 Global state management using React Context API
+
+🛠️ Tech Stack
+Next.js 14
+
+React
+
+Tailwind CSS
+
+Lucide Icons
+
+Context API
+
+📁 Project Structure
+pgsql
+Copy
+Edit
+Gemini-Clone/
+├── public/
+│   └── media/
+│       ├── CHatareaa.png
+│       ├── GeminiHome.png
+│       └── chatVedio.mp4
+├── app/
+│   ├── layout.jsx
+│   └── page.jsx
+├── components/
+│   ├── Sidebar.jsx
+│   ├── Topbar.jsx
+│   └── GeminiBody.jsx
+├── context/
+│   └── ContextProvider.jsx
+├── lib/
+│   └── gemini.js
+├── styles/
+│   └── globals.css
+├── .env.local
+├── README.md
+└── package.json
+📦 Installation & Setup
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/Gemini-Clone.git
+cd Gemini-Clone
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Create .env.local file:
+
+env
+Copy
+Edit
+GOOGLE_API_KEY=your_gemini_api_key
+Run the development server:
+
+bash
+Copy
+Edit
+npm run dev
+Visit http://localhost:3000 🚀
+
+⚠️ Notes
+Ensure all media files (CHatareaa.png, GeminiHome.png, chatVedio.mp4) are inside the public/media folder.
+
+When using images or video from /public, always start path with / (i.e., /media/filename.ext)
+
+Video tags must use <video> not <img>.
+
+📬 Contact
+Made with ❤️ by Parul Gupta
+GitHub: @parulgupta
+LinkedIn: Parul Gupta
+
+📜 License
+This project is licensed under the MIT License - feel free to use and modify!
+
+yaml
+Copy
+Edit
 
 ---
 
-## 🚀 Features
 
-- 🧠 Chat simulation with Gemini-like layout
-- 💬 Real-time input and chat display
-- 🎨 Modern UI using Tailwind CSS
-- 🌙 Light/Dark Theme Toggle
-- 🔐 Secure API key usage with `.env.local`
-- 💡 React Context for global state management
 
----
 
-## 🛠️ Tech Stack
 
-- [Next.js 14](https://nextjs.org/)
-- [React](https://reactjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Lucide Icons](https://lucide.dev/)
-- React Context API
 
----
 
-## 📁 Project Structure
+
+
 
